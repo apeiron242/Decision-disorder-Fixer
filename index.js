@@ -33,7 +33,7 @@ alert("두구두구두구두구두구~");
 
 alert("바로오오오오오오오오오오오오오오옹");
 
-result.innerHTML = food[Math.round(Math.random() * (food.length - 1))] + "입니다! 좋은 선택이네요!";
+result.innerHTML = "'" + food[Math.round(Math.random() * (food.length - 1))] + "'" + "입니다! 좋은 선택이네요!";
 
 result.setAttribute("style", "padding: 10px;");
 }
