@@ -1,0 +1,63 @@
+html{
+    background-image: url("배경2.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    background-color: #006266;
+    width:fit-content;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color: #006266;
+    width:fit-content;
+    margin: auto;
+}
+#result{
+    margin-top: 15px;
+    color: black;
+    background-color:white;
+    width:fit-content;
+    text-align: center;
+}
+#control{
+    flex-direction: column;
+    margin-top: 20px;
+}
+#explanation{
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+#control, #explanation{
+    display: flex;
+}
+ol{
+    color: black;
+}
+.explain{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-color:#dff9fb;
+    color: black;
+    list-style-position: inside
+}
+.newLi{
+    background-color: white;
+    list-style-position: inside;
+    width: fit-content;
+    padding: 7px;
+}
+@media (max-width:600px){
+    #explanation{
+        width: auto;
+    }
+}

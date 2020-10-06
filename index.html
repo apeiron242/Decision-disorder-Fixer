@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>결정장애 해소기</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>결정장애 해소기</h1>
+    <div id="control">
+        <form action="">
+            <input type="text" id="text">
+            <input type="button" value="제출" id="btn">
+        </form>
+        <form action="">
+            <div id="list"><ol id="ol"></ol></div>
+            <input type="button" value="항목 고르기" id="chooseBtn">
+            <input type="button" value="항목 빠르게 고르기" id="easyBtn">
+            <div id="result"></div>
+        </form>
+    </div>
+    <div id="explanation">
+        <h2>사용법</h2>
+        <ol>
+            <li class="explain">이 프로그램은 음식, 여행지 등과 같이 여러가지 선택지들 사이에서 고민 중인 분들을 위해 만들어졌습니다</li>
+            <li class="explain">고르고 싶은 항목을 하나씩만 입력하고 '제출' 버튼을 눌러주세요 <span style="color: red; font-weight: bold;">(Enter 키를 누르시면 안 됩니다!)</span></li>
+            <li class="explain">항목을 다 고르셨다면 '항목 고르기' 혹은 '항목 빠르게 고르기'를 눌러주세요</li>
+            <li class="explain">'항목 고르기' 버튼을 눌렀을 때 나오는 창들이 너무 번거롭다면 '항목 빠르게 고르기'를 눌러주세요</li>
+            <li class="explain">다시 선택하시려면 새로고침을 눌러주세요</li>
+        </ol>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
